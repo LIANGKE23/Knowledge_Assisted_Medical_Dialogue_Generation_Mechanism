@@ -32,3 +32,7 @@ transformer文件夹 ：transformer模型相关代码
  transformer训练代码，输入是经过preprocess.py处理后的数据，训练后得到transformer模型。
  2、trans_generate.py
  包括预测和评估两部分，输入为经过preprocess.py处理后的test数据，利用训练后保存的bert-gpt模型进行预测推理，生成txt预测结果文件，并评估模型指标
+ 
+ 
+ if you use the repository, please cite the paper:
+ Ke Liang, Sifan Wu, Jiayi Gu, "MKA: A Scalable Medical Knowledge-Assisted Mechanism for Generative Models on Medical Conversation Tasks", Computational and Mathematical Methods in Medicine, vol. 2021, Article ID 5294627, 10 pages, 2021. https://doi.org/10.1155/2021/5294627
