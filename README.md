@@ -10,6 +10,7 @@ It is based on the data not only for multiple rounds of dialogue data, but also 
 6. data_gjy_seen.py: Combining the graphs and dialogue context as the input for the model.
 
 Step 2: MKA Mechanism ----- Large Scale Model Application
+
 2-1 Using Bert-GPT: Within bert-gpt folder, there are 4 files:
 1. preprocess.py: Data preprocessing for Bert-GPT model.
 2. bert_gpt_train_dpt.py: Training.
